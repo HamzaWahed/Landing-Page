@@ -1,0 +1,32 @@
+body{
+    width: auto;
+    margin: 0;
+}
+
+.header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8
+}
+
+.logo{
+    width: auto;
+    height: auto;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+a{
+    color: #F9FAF8;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}
