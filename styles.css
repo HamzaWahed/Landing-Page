@@ -6,27 +6,66 @@ body{
 .header{
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.top{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
 }
 
 h1{
     font-size: 48px;
-    color: #F9FAF8
-}
-
-.logo{
-    width: auto;
-    height: auto;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-bottom: 0;
 }
 
 ul{
     list-style-type: none;
     display: flex;
+    justify-content: flex-end;
+    border: 0;
+    margin-left: 100px;
+
 }
 
 a{
     color: #F9FAF8;
     text-decoration: none;
-    margin: 0 10px 0 0;
+    margin-right: 20px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.title-image{
+    width: 30%;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 210px;
+}
+
+p{
+    width: 70%;
+}
+
+button{
+    width: 100px;
+    padding: 8px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
 }
