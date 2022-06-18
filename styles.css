@@ -66,3 +66,36 @@ button{
     margin: 0 auto;
     padding-bottom: 200px;
 }
+
+/* Body style */
+
+.body{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+
+.pics{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dentistImages{
+    width: 20%;
+    height: 20%;
+}
+
+.captions{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
