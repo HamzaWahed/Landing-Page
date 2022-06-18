@@ -56,6 +56,9 @@ p{
 button{
     width: 100px;
     padding: 8px;
+    background-color: #3882f6;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
 }
 
 .details{
@@ -107,6 +110,11 @@ h2{
     color: white;
     display: flex;
     justify-content: center;
+    background-color: #e5e7eb;
+    padding: 50px 0;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
 }
 
 .footer{
@@ -119,7 +127,7 @@ h2{
 }
 
 .promotion{
-    background-color:#1F2937;
+    background-color:#3882F6;
     color: white;
     width: 60%;
     margin: 0 auto;
@@ -135,4 +143,5 @@ h2{
     background-color: #1F2937;
     color: white;
     text-align: center;
+    padding: 30px 0;
 }
