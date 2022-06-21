@@ -107,14 +107,14 @@ h2{
 
 .captions{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: #1F2937;
     margin-top: 14px;
 }
 
 .captions p{
-    width: 200px;
+    width: 20%;
     margin: 0 auto;
 }
 
