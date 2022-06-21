@@ -42,8 +42,9 @@ a{
 }
 
 .title-image{
-    width: 400px;
+    width: 350px;
     height: auto;
+    margin: 0 auto;
 }
 
 .info{
@@ -92,21 +93,29 @@ h2{
 
 .pics{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .dentistImages{
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: auto;
     border: solid 4px blue;
     border-radius: 20%;
+    margin: 0 auto;
 }
 
 .captions{
     display: flex;
     justify-content: space-between;
-    margin: 0;
-    color: #1F2937
+    align-items: center;
+    color: #1F2937;
+    margin-top: 14px;
+}
+
+.captions p{
+    width: 200px;
+    margin: 0 auto;
 }
 
 /* quote */
